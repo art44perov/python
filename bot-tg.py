@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
 # Токен вашего бота (замените на ваш реальный токен)
-TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
+TOKEN = "7007244912:AAEEjeOF0An_zXdyiHeXRNeYucEW1CbPbYg"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Отправляет сообщение при получении команды /start"""
